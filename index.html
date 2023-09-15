@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/edd80808b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio | Felipe Lopes</title>
+  </head>
+
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link" aria-current="page" href="#projects"
+              >Projects</a
+            >
+            <a class="nav-link" href="#experiences">Professional Experience</a>
+            <a class="nav-link" href="#publications">Publications</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Sessão principal -->
+    <main class="container-fluid row">
+      <!-- Card de informações -->
+      <aside class="col-sm-4 mb-5">
+        <div class="card">
+          <!-- Substituir foto do perfil aqui, basta mudar o src -->
+          <img src="./assets/foto_perfil.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h3 class="card-title">Felipe Lopes</h3>
+            <p class="card-text">
+              Removing business problems one data point at a time. My curiosity
+              always enabled me to learn more, now I employ it to solve business
+              problems as a Data Scientist/Engineer, researcher, and problem
+              solver. Now working at Uber at the automation team in Latam, where
+              I am responsible for the development of MLOps best practices
+              within the team
+            </p>
+          </div>
+        </div>
+      </aside>
+      <!-- Sessão dos projetos -->
+      <section class="col-sm">
+        <article class="mb-5" id="projects">
+          <div class="card">
+            <div class="card-header card-title">
+              <h4 class="card-title">Projects</h4>
+            </div>
+            <div class="card-body">
+              <h6 class="card-text">Cross-sell prediction</h6>
+              <p>
+                Project to predict if a customer from an insurance company that
+                has provided Health Insurance will need vehicle insurance, using
+                the data presented on the following Kaggle dataset: Health
+                Insurance Cross Sell Prediction. Here various under and
+                oversampling techniques were analysed based on how they improved
+                the performance of an XGBoost and other classification models.
+              </p>
+              <img
+                class="image-projects"
+                src="./assets/imagem1_projeto.png"
+                alt="Gráfico"
+              />
+              <img
+                class="image-projects"
+                src="./assets/imagem2_projeto.png"
+                alt="Gráfico 2"
+              />
+              <img
+                class="image-projects"
+                src="./assets/imagem3_projeto.png"
+                alt="Gráfico 3"
+              />
+              <a
+                href="https://github.com/FelipeFLopes/cross-sell-prediction/tree/main"
+                class="btn btn-secondary"
+                >Go to repository</a
+              >
+            </div>
+            <!-- Inserir novos projetos sempre deixando um </div> para fora -->
+          </div>
+          <!-- Caso queira adicionar novos projetos, informação no final do arquivo -->
+        </article>
+        <!-- Sessão das experiências -->
+        <article class="mb-5" id="experiences">
+          <div class="card">
+            <div class="card-header card-title">
+              <h4 class="card-title">Professional Experience</h4>
+            </div>
+            <div class="card-body">
+              <ul class="topic-list">
+                <li>
+                  <img
+                    class="logo-image"
+                    src="./assets/logo_uber.png"
+                    alt="Logo Uber"
+                  />
+                  Automation Operations & Logistics Manager (Machine Learning
+                  Engineer)
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Eveniet dolorem laborum omnis nostrum? Quod reprehenderit
+                    accusamus omnis consectetur totam nesciunt quaerat
+                    reiciendis, porro alias, ex ab, esse libero laboriosam
+                    tempore?
+                  </p>
+                </li>
+                <li>
+                  <img
+                    class="logo-image"
+                    src="./assets/logo_vixtra.png"
+                    alt="Logo Vixtra"
+                  />
+                  Data Engineer
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facere maxime facilis aliquam. Quibusdam nam beatae repellat
+                    deleniti error architecto incidunt saepe reprehenderit
+                    suscipit totam eaque sed, quasi, culpa quae consequuntur!
+                  </p>
+                </li>
+                <li>
+                  <img
+                    class="logo-image"
+                    src="./assets/logo_nuveo.png"
+                    alt="Logo Nuveo"
+                  />
+                  Jr. Computer Vision Data Scientist
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus ad dignissimos aspernatur eum quis eligendi qui
+                    pariatur sint excepturi, inventore molestiae adipisci quod
+                    quos distinctio consectetur earum magnam. Voluptas, iusto.
+                  </p>
+                </li>
+                <!-- Se precisar adicionar novas publicações, basta copiar uma linha <li></li> e colar embaixo -->
+              </ul>
+            </div>
+          </div>
+        </article>
+        <!-- Sessão das publicações -->
+        <article class="mb-5" id="publications">
+          <div class="card">
+            <div class="card-header card-title">
+              <h4 class="card-title">Publications</h4>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>
+                  <a href=https://www.mdpi.com/2079-9292/8/6/631>Parallel
+                  Implementation on FPGA of Support Vector Machines Using
+                  Stochastic Gradient Descent
+                </li>
+                <li>
+                  <a href=https://ieeexplore.ieee.org/document/9448715>FPGA
+                  Implementation of the Adaptive Digital Beamforming for Massive
+                  Array
+                </li>
+                <li>
+                  <a href=https://www.mdpi.com/1424-8220/20/11/3168>Proposal of
+                  the CAD System for Melanoma Detection Using Reconfigurable
+                  Computing
+                </li>
+                <li>
+                  <a href=https://www.mdpi.com/1424-8220/20/7/1996>Proposal of
+                  Takagi–Sugeno Fuzzy-PI Controller Hardware
+                </li>
+              </ul>
+              <!-- Se precisar adicionar novas publicações, basta copiar uma linha <li></li> e colar embaixo -->
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!-- Footer/Contate-me -->
+    <footer class="bg-body-tertiary text-center pb-3 pt-3 col-sm">
+      <h5>CONTACT ME</h5>
+      <a href="https://www.linkedin.com/in/felipeflopes/"
+        ><i class="fa-brands fa-linkedin fa-xl"></i
+      ></a>
+      <a href="https://github.com/FelipeFLopes/"
+        ><i class="fa-brands fa-github fa-xl"></i
+      ></a>
+      <a href="#"><i class="fa-solid fa-envelope fa-xl"></i></a>
+    </footer>
+    <!--JS BOOTSTRAP-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- Para adicionar novos projetos, copiar o código abaixo -->
+
+<!-- <div class="card-body">
+    <h6 class="card-text">Cross-sell prediction</h6>
+    <a
+      href="https://github.com/FelipeFLopes/cross-sell-prediction/tree/main"
+      class="btn btn-secondary"
+      >Go to repository</a
+    >
+  </div> -->

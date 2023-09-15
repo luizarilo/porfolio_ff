@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-width: 100vh;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000
+}
+
+a:hover{
+    font-weight: 500;
+}
+
+i{
+    color:#5c636a;
+    padding-left: 0.5rem;
+}
+
+.topic-list{
+ list-style: none;
+}
+
+.logo-image{
+    width: 50px;
+}
+
+.image-projects{
+    width: 250px;
+}
