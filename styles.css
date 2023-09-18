@@ -31,3 +31,31 @@ i{
 .image-projects{
     width: 250px;
 }
+
+
+@media (max-width: 375px){
+    .aside-responsiva{
+        display: flex;
+        flex-direction: row;
+        height: 230px
+    }
+    .card-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto-responsivo{
+        font-size: 12px;
+    }
+}
+
+/* @media (max-width: 375px){
+    .card-image{
+        width: 50%
+    }
+
+    .aside-responsiva{
+        display: flex;
+        align-items: center;
+    }
+} */
